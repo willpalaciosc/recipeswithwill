@@ -1,0 +1,85 @@
+body {
+  background-image: linear-gradient(
+    -225deg,
+    #69eacb 0%,
+    #eaccf8 48%,
+    #6654f1 100%
+  );
+  font-family: "Alumni Sans", sans-serif;
+  font-weight: bolder;
+  box-sizing: border-box;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+nav {
+  text-align: center;
+  font-family: "Alumni Sans", sans-serif;
+  font-size: 50px;
+  background-color: rgba(0, 0, 0, 0.204);
+  border: 5px;
+  border-radius: 5px;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.navbar {
+  display: inline-flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+[href] {
+  text-decoration: none;
+}
+
+.logo {
+  width: 1000px;
+  display: block;
+  margin: 0 auto;
+  padding: 0% 0% 0% 0%;
+}
+
+.banner {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  background-color: black;
+  border-radius: 5px;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  transition: 0.8s all;
+  padding: 30px 60px 30px 60px;
+}
+
+nav ul li:hover {
+  background-color: rgba(114, 84, 189, 0.394);
+}
+
+nav li {
+  border-right: 5px solid rgba(0, 0, 0, 0.204);
+  border-left: 5px solid rgba(0, 0, 0, 0.204);
+  border-radius: 500px;
+  border-style: ridge white;
+}
+
+.text1 {
+  background-color: rgba(0, 0, 0, 0.204);
+  text-align: center;
+  border-radius: 5px;
+  padding: 20px 20px;
+  font-size: 30px;
+  color: white;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+a:visited {
+  color: white;
+}
+
+a:active {
+  color: rgb(255, 255, 181);
+}
